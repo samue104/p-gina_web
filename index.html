@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <form name="Formulario" method="get" action="procesar.php">
+            <p><label>Nombre: <input type="text" name="nombre" maxlength="15" id="nombre"></label></p>
+            <p><label>Edad: <input type="" name="edad" id="edad" min="13" max="100" maxlength="2">
+                <br>
+                <input type="radio" name="edad" value="15" checked>15 Años
+                <input type="checkbox" name="edad" value="30">30 Años
+                <input type="radio" name="edad" value="45">45 Años
+                <input type="checkbox" name="edad" value="60">60 Años
+            </label></p>
+            <p><label for="Edad">Edad: 
+                <input type="range" name="edad" id="edad" min="13" max="100" value="35">
+            </label></p>
+            <p><label>Fecha: <input type="date" name="Fecha" value="2024-08-14"></label></p>
+            <p><label>Correo: <input type="email" name="correo"></label></p>
+            <p><label>Teléfono: <input type="email" name="telefono"></label></p>
+            <p><label>Sito Web: <input type="email" name="sitioweb"></label></p>
+            <p><input type="submit" value="Enviar Datos"></p>
+            
+        </form>
+    </section>
+</body>
+</html>
